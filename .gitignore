@@ -1,10 +1,4 @@
 *
 !*.py*
 !*.R*
-Mix*
-NBayes*
-SVM_*
-*.pdf
-knn_*
-rf_*
-xgboost_*
+trained_models/
