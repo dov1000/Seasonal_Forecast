@@ -1,0 +1,42 @@
+---
+title: "Interfaz2"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(knitr)
+library(plotly)
+library(plyr)
+library(xgboost)
+#library(caret)
+library(tidyverse)
+library(stats)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+
+```{r echo=FALSE}
+read_chunk('C:/Users/daoban/Documents/RelacionIndicesLluvia/Modelos/Reventazon/Resultados.R')
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+<<imagen1>>
+```
+
+### Chart C
+
+```{r}
+<<imagen2>>
+```
+
