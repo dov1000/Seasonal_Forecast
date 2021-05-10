@@ -1,5 +1,6 @@
-!.py
-!.R
+!*.py
+!*.R
+/*
 ctp/
 Mensuales_estaciones/
 .ipynb_checkpoints/
